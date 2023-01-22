@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.bar{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.bar nav{
+    padding: 25px;
+}
+.bar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding-top: 53px;
+    padding-bottom: 53px; 
+
+}
+.barGo{
+    transform: translate(-233px, 0px);
+    
+}
+.hamburger{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px; 
+    justify-content: space-between;
+}
+.cross{
+    width: 23px;
+    height: 23px;
+    margin-left: 80px;
+    transition: transform 0.3s ease-in;
+}
+.main{
+    position: fixed;
+    width: 90vw;
+    height: 100vh;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 150px;
+    margin: 30px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.page img{
+    height: 40vh;
+    width: auto;
+
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(5, 117, 161);
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin: 3px;
+    font-size: 15px;
+    border-radius: 22px;
+    padding: 10px;
+}
+.button a {
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    color:rgb(5, 117, 161);
+}
+.button a:hover{
+    background-color: white;
+        color: rgb(5, 117, 161);
+}
+@media only screen and (max-width: 460px) {
+ .pic{
+    display: none;
+ } 
+ .page{
+padding-left:0px ;
+top: 30px;
+ } 
+}
+/* .bar{
+        transform: translate(-233px,0px);
+    }
+*/
